@@ -47,10 +47,3 @@ class Agregado_lineal(ABC, Generic[E]):
         self._elements.clear()
         return elementos_eliminados
     
-
-    
-    
-        
-        
-       
-        

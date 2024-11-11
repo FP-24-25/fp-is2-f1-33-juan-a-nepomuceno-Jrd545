@@ -18,7 +18,7 @@ print("Resultado de usar el metodo size:", pila.size)
 print(" ")
 print("################################################")
 print(" ")
-pila = Pila.of()
+
 pila.add(1)
 pila.add(2)
 pila.add(3)
@@ -28,11 +28,6 @@ print("Resultado del metodo size:", pila.size)
 print("Resultado de usar el metodo elememts:", pila.elements)  
 
 
-pila = Pila.of()
-pila.add(1)
-pila.add(2)
-pila.add(3)
-
 print(" ")
 print("################################################")
 print(" ")
@@ -40,11 +35,7 @@ print("Ahora probamos el metodo remove y remove_all al volver a poner el element
 elemento = pila.remove()
 print(f"Elemento eliminado: {elemento}")
 
-
-pila = Pila.of()
-pila.add(1)
-pila.add(2)
-pila.add(3)
+pila.add(elemento)
 
 elementos_eliminados = pila.remove_all()
 print("Los elementos eliminados son", elementos_eliminados)
