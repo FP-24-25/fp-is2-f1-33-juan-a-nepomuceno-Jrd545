@@ -1,7 +1,7 @@
 '''
 Created on 8 nov 2024
 
-@author: joaqu
+@author: joaquín Ramos Díaz
 '''
 
 from __future__ import annotations
