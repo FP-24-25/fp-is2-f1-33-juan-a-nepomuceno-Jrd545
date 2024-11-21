@@ -5,7 +5,7 @@ Created on 8 nov 2024
 '''
 
 from __future__ import annotations
-from typing import List, Generic, TypeVar
+from typing import List, Generic, TypeVar, Callable
 from abc import ABC, abstractmethod
 
 
@@ -46,4 +46,22 @@ class Agregado_lineal(ABC, Generic[E]):
         elementos_eliminados = self._elements.copy()
         self._elements.clear()
         return elementos_eliminados
+    
+    
+    #Modificacion del codigo:
+    
+    #Metodo contains
+    def contains(self, e: E) -> bool:
+        return e in self._elements
+    
+    #Metodo find
+    def find(self, func: Callable[[E], bool]) -> E | None:
+        for e in self._elements:
+            if func(e):
+                return e
+        return None
+    
+    #Metodo filter
+    def filter(self, func: Callable[[E], bool]) -> list[E]:
+        return [e for e in self._elements if func(e)]
     
