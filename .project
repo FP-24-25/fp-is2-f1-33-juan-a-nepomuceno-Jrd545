@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Proyecto-Python_entregable</name>
+	<name>ProyectoPython</name>
 	<comment></comment>
 	<projects>
+		<project>Python_v1</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

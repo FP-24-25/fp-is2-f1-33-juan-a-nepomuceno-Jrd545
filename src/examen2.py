@@ -96,6 +96,3 @@ print(cola.filter(lambda x: "Tarea" in x))
 print(cola.filter(lambda x: x.endswith("3"))) 
 print(cola.filter(lambda x: x.startswith("8"))) 
 
-
-
-

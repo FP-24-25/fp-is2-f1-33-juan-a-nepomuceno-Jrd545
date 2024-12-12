@@ -28,7 +28,7 @@ def contar_palabra(fichero: str, sep: str, cad: str):
     except Exception as i:
         return f"Error inesperado: {i}"
 
-direc = "C:/Users/joaqu/git/entrega1-proyecto-Jrd545/src/resources/lin_quijote.txt"
+direc = "C:/Users/joaqu/git/entrega1-proyecto-Jrd545/src/resources1/lin_quijote.txt"
 cad = "hidalgo"
 try:
     print("################################################")
@@ -68,7 +68,7 @@ cad = "quijote"
 try:
     print("################################################")
     print("TEST DE LA FUNCIÓN 7:")
-    print("Las lineas donde aparecen la palabra", cad, "son:", encontrar_lineas_con_cadena("C:/Users/joaqu/git/entrega1-proyecto-Jrd545/src/resources/lin_quijote.txt", cad))
+    print("Las lineas donde aparecen la palabra", cad, "son:", encontrar_lineas_con_cadena("C:/Users/joaqu/git/entrega1-proyecto-Jrd545/src/resources1/lin_quijote.txt", cad))
 except (TypeError, ValueError) as e:
     print(f"Error: {e}")
     
@@ -102,7 +102,7 @@ def encontrar_palabras_unicas(fichero: str):
 try:
     print("################################################")
     print("TEST DE LA FUNCIÓN 8:")
-    print("Las palabras únicas en el fichero son:", encontrar_palabras_unicas("C:/Users/joaqu/git/entrega1-proyecto-Jrd545/src/resources/archivo_palabras.txt"))
+    print("Las palabras únicas en el fichero son:", encontrar_palabras_unicas("C:/Users/joaqu/git/entrega1-proyecto-Jrd545/src/resources1/archivo_palabras.txt"))
 except (TypeError, ValueError) as e:
     print(f"Error: {e}")
 
@@ -136,10 +136,10 @@ def longitud_promedio_lineas(file_path: str) -> Optional[float]:
 try:
     print("################################################")
     print("TEST DE LA FUNCIÓN 9:")
-    print("La longitud promedio de las líneas del fichero:", longitud_promedio_lineas("C:/Users/joaqu/git/entrega1-proyecto-Jrd545/src/resources/palabras_random.csv"))
+    print("La longitud promedio de las líneas del fichero:", longitud_promedio_lineas("C:/Users/joaqu/git/entrega1-proyecto-Jrd545/src/resources1/palabras_random.csv"))
     print(" ")
     print("TEST DE LA FUNCIÓN 9:")
-    print("La longitud promedio de las líneas del fichero:", longitud_promedio_lineas("C:/Users/joaqu/git/entrega1-proyecto-Jrd545/src/resources/vacio.csv"))
+    print("La longitud promedio de las líneas del fichero:", longitud_promedio_lineas("C:/Users/joaqu/git/entrega1-proyecto-Jrd545/src/resources1/vacio.csv"))
 except (TypeError, ValueError) as e:
     print(f"Error: {e}")
 
