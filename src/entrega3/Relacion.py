@@ -30,3 +30,10 @@ class Relacion:
 
 if __name__ == '__main__':
     pass
+    """
+    relacion1 = Relacion.of(10, 30)
+    relacion2 = Relacion.of(5, 15)
+
+    print(relacion1)  # Ejemplo de salida: (1 - días activa: 30 - num interacciones: 10)
+    print(relacion2)  # Ejemplo de salida: (2 - días activa: 15 - num interacciones: 5)
+    """
